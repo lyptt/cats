@@ -1,0 +1,34 @@
+{
+  "name": "Cats of Mastodon",
+  "description": "😸🙀😻",
+  "layouts": {
+    "cats_small": {
+      "size": "small",
+      "styles": {
+        "colors": {
+          "black": {
+            "color": "#333"
+          }
+        }
+      },
+      "layers": [
+        {
+          "rows": [
+            {
+              "height": 12,
+              "cells": [
+                {
+                  "width": 12,
+                  "background_color_style": "black",
+                  "image": {
+                    "data_ref": "photo_url"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
