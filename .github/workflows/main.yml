@@ -12,6 +12,9 @@ on:
     branches: '**'
     paths-ignore:
       - '**/README.md'
+  workflow_dispatch:
+  schedule:
+    - cron: '30 * * * *'
 
 jobs:
   build-ui:
